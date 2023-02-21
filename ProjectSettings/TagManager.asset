@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SpaceBack
+  - LandBack
+  - PlayerShip
+  - PlayerTank
+  - Enemy
+  - PowerUp
+  - EnemyThings
+  - PlayerParts1
+  - Difficulty Factor
+  - Shield
+  - SpaceParticles
+  - LandParticles
+  - Boss
+  - BossParts
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - PlayerLaser
+  - EnemyLaser
+  - Laser Shredder
+  - EnemyBullet
+  - PowerUp
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: PlayerProjectiles
+    uniqueID: 94119429
+    locked: 0
+  - name: PlayerTank
+    uniqueID: 4039200505
+    locked: 0
+  - name: TankParts
+    uniqueID: 1584208935
+    locked: 0
+  - name: PlayerShip
+    uniqueID: 4007789381
+    locked: 0
+  - name: EnemyBullet
+    uniqueID: 3078984013
+    locked: 0
+  - name: Enemy
+    uniqueID: 1190026479
+    locked: 0
+  - name: OverProjectile
+    uniqueID: 732444439
+    locked: 0

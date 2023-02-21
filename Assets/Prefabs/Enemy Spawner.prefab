@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1421209334640478}
+  m_IsPrefabAsset: 1
+--- !u!1 &1421209334640478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4334390818221054}
+  - component: {fileID: 114383138109499770}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4334390818221054
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1421209334640478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114383138109499770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1421209334640478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341c2124e552b084383a03514f710b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spaceWaveConfig:
+  - {fileID: 11400000, guid: a633779fc52457d408669fe0db9308b9, type: 2}
+  - {fileID: 11400000, guid: a3dead8944cacde44a489c6ea032f7f7, type: 2}
+  - {fileID: 11400000, guid: aa812473e35d0bc49875e88f2bad9309, type: 2}
+  - {fileID: 11400000, guid: 116d7fa1a1a798c4f8e92a80744345fb, type: 2}
+  - {fileID: 11400000, guid: c99b29d4df9141f40931fe77e58faff8, type: 2}
+  spaceInterval: 0100000001000000010000000100000001000000
+  landWaveConfig:
+  - {fileID: 11400000, guid: d6d6346ab28fcf84a9a7b9f1fef96101, type: 2}
+  - {fileID: 11400000, guid: 127198d3020017f4b8e79b1a320efd3a, type: 2}
+  - {fileID: 11400000, guid: 51148f542335fba4094aa50321fb1af5, type: 2}
+  - {fileID: 11400000, guid: 93738dc858c065044a94079198d75fc4, type: 2}
+  - {fileID: 11400000, guid: 31b758ebe879f1d4a94a63ed5dbe08eb, type: 2}
+  landInterval: 0100000001000000010000000100000001000000
+  startingWave: 0
+  lastEnemies: []

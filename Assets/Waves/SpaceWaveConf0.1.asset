@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287d452385158c6499ad2bf992ace8f9, type: 3}
+  m_Name: SpaceWaveConf0.1
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1501202901994784, guid: b199861c888358649a32c67b1404a71b,
+    type: 2}
+  pathPrefab: {fileID: 1535984897860836, guid: a3cc5c54bb8d47047aec444d31cee3d9, type: 2}
+  timeBetweenSpawns: 0.5
+  spawnRandomFactor: 0.3
+  numberOfEnemies: 4
+  moveSpeed: 5
+  isMirrored: 1
